@@ -1,0 +1,30 @@
+2023-10-23 17:05:39,067 - INFO - BEGIN (implicit)
+2023-10-23 17:05:39,068 - INFO - PRAGMA main.table_info("db")
+2023-10-23 17:05:39,069 - INFO - [raw sql] ()
+2023-10-23 17:05:39,073 - INFO - PRAGMA temp.table_info("db")
+2023-10-23 17:05:39,073 - INFO - [raw sql] ()
+2023-10-23 17:05:39,075 - INFO - 
+CREATE TABLE db (
+	id INTEGER NOT NULL, 
+	name VARCHAR, 
+	tel VARCHAR, 
+	email VARCHAR, 
+	salary FLOAT, 
+	PRIMARY KEY (id)
+)
+
+
+2023-10-23 17:05:39,076 - INFO - [no key 0.00110s] ()
+2023-10-23 17:05:39,083 - INFO - COMMIT
+2023-10-23 17:25:42,646 - INFO - BEGIN (implicit)
+2023-10-23 17:25:42,647 - INFO - PRAGMA main.table_info("db")
+2023-10-23 17:25:42,648 - INFO - [raw sql] ()
+2023-10-23 17:25:42,650 - INFO - COMMIT
+2023-10-23 17:37:39,056 - INFO - BEGIN (implicit)
+2023-10-23 17:37:39,058 - INFO - PRAGMA main.table_info("db")
+2023-10-23 17:37:39,058 - INFO - [raw sql] ()
+2023-10-23 17:37:39,060 - INFO - COMMIT
+2023-10-23 17:40:34,605 - INFO - BEGIN (implicit)
+2023-10-23 17:40:34,606 - INFO - PRAGMA main.table_info("db")
+2023-10-23 17:40:34,607 - INFO - [raw sql] ()
+2023-10-23 17:40:34,609 - INFO - COMMIT
